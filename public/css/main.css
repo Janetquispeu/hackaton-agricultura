@@ -80,3 +80,20 @@ section.contact {
 .input-form{
 	float: right;
 }
+
+#map{
+	height: 500px;
+	width: 700px;
+	margin-top: 9%;
+	border: 1px solid black;
+}
+.form-empresa{
+	margin-top: 13%;
+}
+img{
+	width: 100%;
+}
+.contenedor-resultados{
+	  margin: 2% 0;
+    overflow: hidden;
+}

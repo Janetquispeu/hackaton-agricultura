@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/ico.ico">
+	<title>Hackaton</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="marca">Marca</div>
+    <ul>
+        <li><a href="#" class="regresar-marker active">Regresar</a></li>
+    </ul>
+	</nav>
+
+	<form class="form-empresa">
+		<div>
+			<label>Razón Social</label>
+			<input type="text" name="empresa">
+		</div>
+		<div>
+			<label>RUC</label>
+			<input type="number" name="ruc">
+		</div>	
+	</form>
+
+	<select>
+		<label>Productos</label>
+		<option value="0" id="azucar">---Elija opción---</option>
+		<option value="1" id="palta">Palta</option>
+		<option value="2" id="esparragos">Esparragos</option>
+	</select>
+	<button type="button" id="btn-buscar">Buscar</button>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-5">
+				<h3>Información del Producto</h3>
+				<div id="contenedor"></div> 
+			</div>
+			<div class="col-md-7">
+				<div id="map"></div>  
+			</div>
+		</div>
+	</div>     
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChtJtCBptUl0YYZdVIYKeMAsZw0Q92GOc&callback=initMap" async defer></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
