@@ -10,21 +10,37 @@
 <body>
 
   <nav class="navbar navbar-default navbar-fixed-top">
-  	<div class="marca">Marca</div>
-    <ul>
-        <li><a href="#" class="home-marker active">home</a></li>
-        <li><a href="#" class="about-marker">¿Quines somos?</a></li>
-        <li><a href="#" class="doing-marker">¿Qué hacemos?</a></li>
-        <li><a href="#" class="notice-marker">Noticias</a></li>
-        <li><a href="#" class="contact-marker">Contáctanos</a></li>
-    </ul>
+  	<div class="container-fluid">
+        <div class="navbar-header navbarHeader">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="contenedor-logo"><img src="img/logo1.png"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="#home" class="home-marker active">Home</a></li>
+			      <li><a href="#somos" class="about-marker">¿Quienes somos?</a></li>
+			      <li><a href="#noticie" class="doing-marker">Noticias</a></li>
+			      <li><a href="#noticia" class="notice-marker">Nuestros Aliados</a></li>
+			      <li><a href="#contacto" class="contact-marker">Contáctanos</a></li>
+          </ul>
+        </div>
+      </div>
 	</nav>
-	        
+	 <a name="home"></a>      
 	<section class="home">
-	  <h1>Home</h1>
-	  <div class="container-fluid">
+		<div class="sombra">
+	  	<div class="container-fluid">
 	  	<div class="row">
-	  		<div class="col-md-4 col-md-offset-8">
+	  		<div class="col-md-4">
+	  			<h1>¡Bienvenidos!</h1>
+	  			<h3>Conoce nuestra plataforma para agricultores y empresarios</h3>
+	  		</div>
+	  		<div class="col-md-4 col-md-offset-4">
 	  			<form class="registro">
   					<label>Usuario</label>
 	  				<input type="text" name="usuario" class="input-form">
@@ -37,24 +53,112 @@
 	  			</form>
 	  		</div>
 	  	</div>
+	  	</div>
 	  </div>
 	</section>
-
+	<a name="somos"></a>
 	<section class="about">
-	  <h1>¿Quienes somos?</h1>
+	  <div class="container-fluid">
+	  	<div class="row">
+	  		<div class="col-md-4">
+	  			<h2 class="somos">¿Quienes somos?</h2>
+	  			<p class="parrafo">Somos una empresa intermediaria entre el agricultor y el comprador mayorista, uniéndolas en la compra y venta de producto y agricultura.</p>
+	  		</div>
+	  		<div class="col-md-7 col-md-offset-1">
+	  			<div class="container-about">
+	  				<div class="row">
+	  					<div class="col-md-6">
+	  						<img src="img/uva.jpg" class="frutas">
+	  					</div>
+	  					<div class="col-md-6">
+	  						<img src="img/fresa.jpg" class="frutas">
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
 	</section>
-
+	<a name="noticie"></a>
 	<section class="doing">
-	  <h1>¿Que hacemos?</h1>
+	  <div class="container-fluid">
+	  	<div class="row">
+	  		<div class="col-md-6">
+	  			
+	  			<video controls="controls" widht="400" height="300">
+					<source src="https://www.youtube.com/watch?v=O2ZTa5Z4QD0"" type="">
+					
+					</video>
+	  
+	  		</div>
+	  		<div class="col-md-4">
+	  			<h3 style="color: black">Galardon Arqueros de Orodesde Bélgica</h3>
+	  			<br><br>
+	  			<p class="texto">La papa peruana vuelve a ser noticia, y es que la demanda  por la papa nativa en algunos países de Europa ha permitido que los productores del Distrito de PAzos en Huancavelica reciban, desde Bélgica el galardón: Arqueros de Oro, que reconoce la calidad y el consumo creciente por esta papa que al principio los belgas creían que eran pintadas.</p>
+	  		</div>
+	  		<div class="col-md-2">
+	  			<div>
+	  				<img src="img/fondo7.jpg" class="img-fondo">
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
 	</section>
-
+	<a name="noticia"></a>
 	<section class="notice">
-	  <h1>Noticias</h1>
+		<div class="marquee">
+		<marquee><h2 class="nuestros" style="font-size: 38px; padding: 5% 0;">Nuestros Aliados</h2></marquee>
+		</div>
+	  <div class="container-fluid">
+	  	<div class="row">
+	  		<div class="col-md-4 ">
+	  			<img src="img/tottus.jpg" class="aliados">
+	  		</div>
+	  		<div class="col-md-4 aliados">
+	  			<img src="img/agricola.jpg" class="aliados">
+	  		</div>
+	  		<div class="col-md-4 aliados">
+	  			<img src="img/fao.png" class="aliados">
+	  		</div>
+	  	</div>
+	  	<div class="row aliados1-row">
+	  		<div class="col-md-6">
+	  			<img src="img/produccion.png" class="aliados1">
+	  		</div>
+	  		<div class="col-md-6">
+	  			<img src="img/wong.png" class="aliados1">
+	  		</div>
+	  	</div>
+	  </div>
 	</section>
-
+	<a name="contacto"></a>
 	<section class="contact">
-	  <h1>Contactanos</h1>
+		<marquee><h2>Contáctanos</h2></marquee>
+	  <div class="col-md-8 col-md-offset-4">
+		<form class="formulario-agricultores">
+     <div class="form-group">
+         <label for="nombre">Nombre</label>
+         <input type="text" class="form-control"  placeholder="Nombre">
+     </div>
+     <div class="form-group">
+         <label for="apellidos">Apellidos</label>
+         <input type="text" class="form-control" placeholder="Apellidos">
+     </div>
+     <div class="form-group">
+         <label for="Domicilio">Correo</label>
+         <input type="text" class="form-control" placeholder="Correo">
+     </div>
+     <div class="form-group">
+     	<label>Comentario</label>
+     	<textarea></textarea>
+     </div>
+     <button type="submit" class="btn btn-primary btnGuardar">Enviar</button>
+		</form>
+	</div>
 	</section>
+	<footer class="text-white">
+			<p style="text-align: center; color: white">© Todos los derechos reservados.</p>
+	</footer>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

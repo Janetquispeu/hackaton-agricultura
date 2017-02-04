@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 #marca{
 	text-align: center;
 }
@@ -8,59 +11,102 @@
 body {
   font-family: Open Sans, sans-serif;
 }
-
+h1{
+	color: white;
+	font-size: 81px;
+	margin: 56% 0 0 4%;
+	
+}
+h3{
+	color: white;
+	margin: 5% 0 0 10%;
+}
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   text-align: center;
-  background-color: #000 !important;
+  background-color:  white!important;
 }
+
 ul{
 	margin-bottom: 0;
 }
 nav ul li {
   list-style: none;
   display: inline-block;
+  padding-top: 3%;
 }
 nav ul li a {
   display: block;
   padding: 20px 40px;
   text-decoration: none;
-  color: #fff;
+  color:#8DC63F !important;
+  font-size: 19px;
+  font-family: 'Righteous', cursive;
   transition: background-color 0.4s ease;
 }
 nav ul li a.active {
-    background-color: #666;
+    background-color: #232523;
 }
 
 section.home { 
-	background-color: #888;
+	background-image: url("../img/fondo33.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100vh;
-	padding-top: 6%;
 }
 section.about { 
-	padding: 30% 0;
-    text-align: center;
-	background-color: #999;
+	background-image: url("");
+	background-repeat: repeat;
+	padding: 10% 5%;
+	background-color: white;
 }
-section.doing { 
-	padding: 30% 0;
-    text-align: center;
-	background-color: #aaa; 
+section.doing {
+	background-color: #8DC63F !important; 
+	padding: 10% 0;
+  text-align: center;
+	background-color: white; 
 }
 section.notice { 
-	padding: 30% 0;
-    text-align: center;
-	background-color: #bbb; 
+	background-image: url("../img/fondo10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0;
+  text-align: center;
+	background-color: white; 
 }
 section.contact { 
-	background-color: #ccc;
-	padding: 30% 0;
-    text-align: center; 
+/*	background-color: #ccc;*/
+	padding: 2% 0;
+  text-align: center; 
 }
-
+.texto{
+	font-family: "Droid Sans";
+	font-size: 18px;
+	text-align: justify;
+}
+.marquee{
+	color: white;
+	font-weight: bold;
+	font-family: "Droid Sans";
+	font-size: 20px;
+	margin: 0 15%;
+}
+textarea{
+	width: 100%;
+  height: 200px
+}
+.img-fondo{
+	  top: -135px;
+    right: -15px;
+    position: relative;
+    width: 100%
+}
+.frutas{
+	height: 300px;
+}
 .marca{
 	padding: 2%;
 	text-align: center;
@@ -69,10 +115,11 @@ section.contact {
 	padding: 23% 5%;
 	height: 300px;
   width: 317px;
-  margin-top: 26%;
+  margin-top: 50%;
   border-radius: 10px;
 	background-color: white;
 	font-size: 15px;
+	opacity: 0.8
 }
 #btn-ingresar{
 	margin-top: 12%;
@@ -92,8 +139,84 @@ section.contact {
 }
 img{
 	width: 100%;
+	height: 77px;
+	color: #8DC63F;
 }
 .contenedor-resultados{
 	  margin: 2% 0;
     overflow: hidden;
 }
+.contenedor-logo{
+	width: 35%;
+	margin-left: 19%;
+}
+.navbarHeader{
+	width: 44%;
+}
+.formulario-agricultores{
+	width: 50%;
+	margin: 26% 0;
+}
+
+.table-editable {
+  position: relative;
+}
+.table-editable.glyphicon {
+    font-size: 20px;
+  }
+
+.table-remove {
+  color: #700;
+  cursor: pointer;
+}
+.table-remove:hover {
+    color: #f00;
+}
+
+.table-up, .table-down {
+  color: #007;
+  cursor: pointer;
+}
+ .table-down:hover, ..table-up:hover, {
+    color: #00f;
+  }
+
+.table-add {
+  color: #070;
+  cursor: pointer;
+  top: 8px;
+  right: 0;
+}
+.table-add:hover {
+    color: #0b0;
+}
+.btnGuardar{
+	text-align: center;
+	margin: 5% 0;
+}
+.somos{
+	font-size: 43px;
+	font-weight: bold;
+}
+.parrafo{
+	font-size: 19px;
+	margin-top: 10%;
+}
+.aliados{
+	height: 100px;
+}
+.aliados1{
+	width: 70%;
+	height: 150px;
+}
+.aliados1-row{
+	margin-top: 5%;
+}
+
+footer{
+	background-color: gray;
+}
+.img-url{
+	height: 133px;
+}
+

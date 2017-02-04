@@ -36,13 +36,13 @@ function initMap(){
     var html=" ";
     $.getJSON("https://janetquispeu.github.io/practicando/lugares.json",function(datos){
 
-      var val1=$("#palta").val();
+      var val1=$("#cacao").val();
       var val2=$("#esparragos").val();
 
       $("#btn-buscar").click(function(){
         if(val1=="1"){
 
-          $.each(datos["palta"], function(idx,primo) {
+          $.each(datos["cacao"], function(idx,primo) {
 
             html+="<br>"+ template.replace("{{latiude}}","latitud:"+primo.latitud)
                           .replace("{{longitude}}","longitud:"+primo.longitud)
