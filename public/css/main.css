@@ -1,0 +1,82 @@
+#marca{
+	text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #000 !important;
+}
+ul{
+	margin-bottom: 0;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.4s ease;
+}
+nav ul li a.active {
+    background-color: #666;
+}
+
+section.home { 
+	background-color: #888;
+	height: 100vh;
+	padding-top: 6%;
+}
+section.about { 
+	padding: 30% 0;
+    text-align: center;
+	background-color: #999;
+}
+section.doing { 
+	padding: 30% 0;
+    text-align: center;
+	background-color: #aaa; 
+}
+section.notice { 
+	padding: 30% 0;
+    text-align: center;
+	background-color: #bbb; 
+}
+section.contact { 
+	background-color: #ccc;
+	padding: 30% 0;
+    text-align: center; 
+}
+
+.marca{
+	padding: 2%;
+	text-align: center;
+}
+.registro{
+	padding: 23% 5%;
+	height: 300px;
+  width: 317px;
+  margin-top: 26%;
+  border-radius: 10px;
+	background-color: white;
+	font-size: 15px;
+}
+#btn-ingresar{
+	margin-top: 12%;
+}
+.input-form{
+	float: right;
+}
